@@ -1,0 +1,17 @@
+Why Pytorch?
+1. Pytorch helps to understand what is happenning at every single layer.
+2. helps to build custom loss functions.
+3. It is a perfect tool for n-dimensional data.
+4. It has great debugging capacities
+
+# nn module has all the necessary loss functions, layers, sequentiall models, activation functions etc.
+
+# nn.functional is used for activation functions
+
+# Torch Tensor is a placeholder for data.
+# Variable is a wrapper for the tensors so that you can easily do operations between tensors and compute gradient.
+
+#DataLoader is used to create training, testing and validating data. 
+#Pytorch has a default DataLoader.
+
+
