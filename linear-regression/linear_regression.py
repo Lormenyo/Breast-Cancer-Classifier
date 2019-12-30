@@ -69,3 +69,5 @@ train_loader = DataLoader(dataset=dataset,
                             batch_size=32, 
                             shuffle=True, 
                             num_workers=2)
+
+nn.cross
