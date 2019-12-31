@@ -14,4 +14,15 @@ Why Pytorch?
 #DataLoader is used to create training, testing and validating data. 
 #Pytorch has a default DataLoader.
 
+# Differences between Normalisation and Standardization
+Normalization usually means to scale a variable to have a values between 0 and 1, while standardization transforms data to have a mean of zero and a standard deviation of 1
+
+# Great explanation of standardization and Normalisation here: https://towardsdatascience.com/introduction-to-data-preprocessing-in-machine-learning-a9fa83a5dc9d
+https://www.cnblogs.com/quinn-yann/p/9808247.html
+
+Normalisation makes training less sensitive to the scale of the features, so that more accurate coeeficients can be obtained.
+Normalisation improves analysis from multiple models. It makes the data better conditioned for convergence.
+
+Standardization makes the training process well behaved because the numerical condition of the optimisation problems is improved.
+When the data is standardized, some of the information will be lost. If the information is not necessary, then standardization is helpful in that case.
 
